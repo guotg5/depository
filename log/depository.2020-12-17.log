@@ -1,0 +1,16 @@
+2020-12-17 20:02:21.882 [main] ERROR DEFAULT - 生成缩略图错误
+java.io.FileNotFoundException: Could not find file: C:\Users\Administrator\IdeaProjects\depository\.\src\main\resources\imag1.jpg
+	at net.coobird.thumbnailator.tasks.io.FileImageSource.read(Unknown Source)
+	at net.coobird.thumbnailator.tasks.SourceSinkThumbnailTask.read(Unknown Source)
+	at net.coobird.thumbnailator.Thumbnailator.createThumbnail(Unknown Source)
+	at net.coobird.thumbnailator.Thumbnails$Builder.toFile(Unknown Source)
+	at com.guotg.depository.ImagUtil.compress(ImagUtil.java:23)
+	at com.guotg.depository.ImagUtil.main(ImagUtil.java:35)
+2020-12-17 20:06:27.575 [main] ERROR - 生成缩略图错误
+java.io.FileNotFoundException: Could not find file: C:\Users\Administrator\IdeaProjects\depository\.\src\main\resources\imag1.jpg
+	at net.coobird.thumbnailator.tasks.io.FileImageSource.read(Unknown Source)
+	at net.coobird.thumbnailator.tasks.SourceSinkThumbnailTask.read(Unknown Source)
+	at net.coobird.thumbnailator.Thumbnailator.createThumbnail(Unknown Source)
+	at net.coobird.thumbnailator.Thumbnails$Builder.toFile(Unknown Source)
+	at com.guotg.depository.ImagUtil.compress(ImagUtil.java:23)
+	at com.guotg.depository.ImagUtil.main(ImagUtil.java:31)
