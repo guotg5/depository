@@ -1,4 +1,4 @@
-package com.guotg.depository;
+package com.guotg.depository.util;
 
 import ch.qos.logback.classic.LoggerContext;
 import ch.qos.logback.classic.joran.JoranConfigurator;

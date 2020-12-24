@@ -1,4 +1,4 @@
-package com.guotg.depository;
+package com.guotg.depository.util;
 
 import net.coobird.thumbnailator.Thumbnails;
 

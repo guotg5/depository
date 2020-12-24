@@ -1,0 +1,13 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+depository:
+  defaultFilePath: c:/file/
+  rocketmq:
+    producerGroup: producer
+    consumerGroup: consumer
+    namesrvaddr: 49.233.170.56:9876
+

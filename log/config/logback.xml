@@ -31,4 +31,7 @@
     <root level="DEBUG">
         <appender-ref ref="depository" />
     </root>
+
+    <!--  关闭烦人的定时器日志  -->
+    <logger name="org.quartz.core.QuartzSchedulerThread" level="WARN" />
 </configuration>
